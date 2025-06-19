@@ -12,6 +12,11 @@
     "isolatedModules": true,
     "noEmit": false
   },
-  "include": ["src", "netlify/functions"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*",
+    "netlify/functions/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
